@@ -21,7 +21,12 @@ namespace StrayRabbit.MMS.WindowsForm
             this.alertControl1.FormShowingEffect = DevExpress.XtraBars.Alerter.AlertFormShowingEffect.FadeIn;
             //弹出的速度
             this.alertControl1.FormDisplaySpeed = DevExpress.XtraBars.Alerter.AlertFormDisplaySpeed.Fast;
-            alertControl1.Show(this,"提示","您有一条消息");
+            alertControl1.Show(this,"提示","您有一条消息1");
+        }
+
+        private void 测试ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

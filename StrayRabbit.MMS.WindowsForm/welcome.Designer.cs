@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraBars.Alerter.AlertButton alertButton1 = new DevExpress.XtraBars.Alerter.AlertButton();
-            DevExpress.XtraBars.Alerter.AlertButton alertButton2 = new DevExpress.XtraBars.Alerter.AlertButton();
+            DevExpress.XtraBars.Alerter.AlertButton alertButton3 = new DevExpress.XtraBars.Alerter.AlertButton();
+            DevExpress.XtraBars.Alerter.AlertButton alertButton4 = new DevExpress.XtraBars.Alerter.AlertButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.系统ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -75,21 +75,22 @@
             this.登录ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.测试ToolStripMenuItem});
             this.登录ToolStripMenuItem.Name = "登录ToolStripMenuItem";
-            this.登录ToolStripMenuItem.Size = new System.Drawing.Size(122, 30);
+            this.登录ToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.登录ToolStripMenuItem.Text = "登录";
             // 
             // 测试ToolStripMenuItem
             // 
             this.测试ToolStripMenuItem.Name = "测试ToolStripMenuItem";
-            this.测试ToolStripMenuItem.Size = new System.Drawing.Size(122, 30);
+            this.测试ToolStripMenuItem.Size = new System.Drawing.Size(180, 30);
             this.测试ToolStripMenuItem.Text = "测试";
+            this.测试ToolStripMenuItem.Click += new System.EventHandler(this.测试ToolStripMenuItem_Click);
             // 
             // alertControl1
             // 
-            alertButton1.Name = "确认";
-            alertButton2.Name = "取消";
-            this.alertControl1.Buttons.Add(alertButton1);
-            this.alertControl1.Buttons.Add(alertButton2);
+            alertButton3.Name = "确认";
+            alertButton4.Name = "取消";
+            this.alertControl1.Buttons.Add(alertButton3);
+            this.alertControl1.Buttons.Add(alertButton4);
             // 
             // welcome
             // 
